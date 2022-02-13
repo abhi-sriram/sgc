@@ -6,7 +6,7 @@ function Header() {
   const [scroll, setScroll] = useRecoilState(scrollDivAtom)
 
   return (
-    <div className="sticky top-0 z-50  h-14   bg-gray-100 p-5 shadow-md ">
+    <div className="sticky top-0 z-50   bg-gray-100 p-5 shadow-md ">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
         <div>
           <h1 className="cursor-pointer text-gray-900">Logo</h1>
