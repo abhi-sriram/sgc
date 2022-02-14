@@ -74,12 +74,13 @@ function CardImage({
 
 function Index() {
   const [scroll, setScroll] = useRecoilState(scrollDivAtom)
-  // const [scrollFooter, setScrollFooter] = useRecoilState(scrollDivFooterAtom)
+  const [scrollFooter, setScrollFooter] = useRecoilState(scrollDivFooterAtom)
 
   const scrollDiv = createRef()
-  // const scrollDivFooter = createRef()
+  const scrollDivFooter = createRef()
 
   useEffect(() => {
+    console.log(scroll)
     scrollDiv.current.scrollIntoView({ behavior: 'smooth' })
 
     setInterval(() => {
@@ -87,18 +88,21 @@ function Index() {
     }, 1000)
   }, [scroll])
 
-  // useEffect(() => {
-  //   scrollDivFooter.current.scrollIntoView({ behavior: 'smooth' })
+  useEffect(() => {
+    scrollDivFooter.current.scrollIntoView({ behavior: 'smooth' })
 
-  //   setInterval(() => {
-  //     setScrollFooter(false)
-  //   }, 1000)
-  // }, [scrollFooter])
+    setInterval(() => {
+      setScrollFooter(false)
+    }, 1000)
+  }, [scrollFooter])
   return (
     <div className="mx-auto max-w-6xl bg-gray-50">
       <HeadComponent title={'About SGC'} />
       {/* Banner */}
-      <div className=" flex  h-screen flex-col-reverse items-center justify-center rounded-md bg-gradient-to-br from-blue-400 to-purple-500 py-10 px-5 sm:h-full sm:flex-row sm:justify-between">
+      <div
+        ref={scrollDivFooter}
+        className=" flex  h-screen flex-col-reverse items-center justify-center rounded-md bg-gradient-to-br from-blue-400 to-purple-500 py-10 px-5 sm:h-full sm:flex-row sm:justify-between"
+      >
         <div className="flex flex-col items-center space-y-2">
           <h1 className="text-center text-2xl font-semibold text-gray-800 sm:text-4xl ">
             About Student Governing Council
