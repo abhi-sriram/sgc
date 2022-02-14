@@ -199,40 +199,67 @@ function Index() {
       <div className="space-y-10 py-10">
         <h1 className="text-center text-3xl text-gray-900">Panels</h1>
         <div className="grid grid-cols-1 gap-3 p-5 sm:grid-cols-3">
-          <button className=" rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/sports'}>
-              <a href="">Sports</a>
-            </Link>
-          </button>
+          <Link href={'/panel/sports'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Sports
+            </a>
+          </Link>
 
-          <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/academics'}>
-              <a href="">Academic</a>
-            </Link>
-          </button>
-          <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/food'}>
-              <a href="">Food</a>
-            </Link>
-          </button>
-          <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/hostel-health'}>
-              <a href="">Hostel & Health</a>
-            </Link>
-          </button>
-          <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/training-placement'}>
-              <a href="">Training & Placement</a>
-            </Link>
-          </button>
-          <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/reasearch-development'}>
-              <a href="">Reasearch & Development</a>
-            </Link>
-          </button>
+          <Link href={'/panel/academics'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Academic
+            </a>
+          </Link>
+
+          <Link href={'/panel/food'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Food
+            </a>
+          </Link>
+
+          <Link href={'/panel/hostel-health'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Hostel & Health
+            </a>
+          </Link>
+
+          <Link href={'/panel/training-placement'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Training & Placement
+            </a>
+          </Link>
+
+          <Link href={'/panel/reasearch-development'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Reasearch & Development
+            </a>
+          </Link>
           <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
             <Link href={'/panel/arts-culture'}>
-              <a href="">Arts & Culture</a>
+              <a
+                className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+                href=""
+              >
+                Arts & Culture
+              </a>
             </Link>
           </button>
         </div>
