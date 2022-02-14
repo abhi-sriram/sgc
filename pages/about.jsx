@@ -74,10 +74,10 @@ function CardImage({
 
 function Index() {
   const [scroll, setScroll] = useRecoilState(scrollDivAtom)
-  const [scrollFooter, setScrollFooter] = useRecoilState(scrollDivFooterAtom)
+  // const [scrollFooter, setScrollFooter] = useRecoilState(scrollDivFooterAtom)
 
   const scrollDiv = createRef()
-  const scrollDivFooter = createRef()
+  // const scrollDivFooter = createRef()
 
   useEffect(() => {
     scrollDiv.current.scrollIntoView({ behavior: 'smooth' })
@@ -87,13 +87,13 @@ function Index() {
     }, 1000)
   }, [scroll])
 
-  useEffect(() => {
-    scrollDivFooter.current.scrollIntoView({ behavior: 'smooth' })
+  // useEffect(() => {
+  //   scrollDivFooter.current.scrollIntoView({ behavior: 'smooth' })
 
-    setInterval(() => {
-      setScrollFooter(false)
-    }, 1000)
-  }, [scrollFooter])
+  //   setInterval(() => {
+  //     setScrollFooter(false)
+  //   }, 1000)
+  // }, [scrollFooter])
   return (
     <div className="mx-auto max-w-6xl bg-gray-50">
       <HeadComponent title={'About SGC'} />
@@ -111,10 +111,7 @@ function Index() {
           <Image src={'/images/hero.png'} layout="fill" objectFit="contain" />
         </div>
       </div>
-      <div
-        ref={scrollDivFooter}
-        className="mx-4 my-10 flex flex-col items-center justify-between  rounded-md border border-gray-100 bg-white shadow-md sm:mx-0 sm:flex-row"
-      >
+      <div className="mx-4 my-10 flex flex-col items-center justify-between  rounded-md border border-gray-100 bg-white shadow-md sm:mx-0 sm:flex-row">
         <div className="relative h-96 w-96">
           <Image src={'/images/bg.png'} layout="fill" objectFit="contain" />
         </div>
