@@ -252,16 +252,15 @@ function Index() {
               Reasearch & Development
             </a>
           </Link>
-          <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
-            <Link href={'/panel/arts-culture'}>
-              <a
-                className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
-                href=""
-              >
-                Arts & Culture
-              </a>
-            </Link>
-          </button>
+
+          <Link href={'/panel/arts-culture'}>
+            <a
+              className="rounded-sm border border-green-500 px-5 py-2 text-center text-green-600 hover:bg-green-600 hover:text-white"
+              href=""
+            >
+              Arts & Culture
+            </a>
+          </Link>
         </div>
       </div>
     </div>
