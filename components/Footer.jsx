@@ -36,7 +36,7 @@ function Footer() {
           <div className="flex space-x-2">
             <Facebook color="#1877F2" size={20} />
             <li className="cursor-pointer list-none text-sm text-gray-200 hover:text-gray-500 hover:underline">
-              &nbsp;Facebook
+             Facebook
             </li>
           </div>
           <div className="flex space-x-2">
