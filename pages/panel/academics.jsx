@@ -88,40 +88,48 @@ function Index() {
             Vision
           </h1>
           <div className="z-30">
-            <div className="flex items-center space-x-2">
-              <div className="h-4 w-4 rounded-full border border-dashed border-green-600 "></div>
+            <div className="flex items-center space-x-4">
+              {/* <div className="h-4 w-10 rounded-full border border-dashed border-green-600 "></div> */}
               <h3 className="text-sm text-gray-800">
                 {' '}
-                About Student Governing Council{' '}
+                &nbsp;&nbsp;&nbsp;To assist in the robust functioning of
+                Academics in coordination with the Administration and the entire
+                campus community.
               </h3>
             </div>
           </div>
 
-          <img
+          {/* <img
             src="/images/hero.png"
             alt=""
             className="absolute bottom-0 right-0 z-0  h-52 w-52 object-contain"
-          />
+          /> */}
         </div>
         <div className="relative  h-96 rounded-md border border-dashed border-gray-400 bg-gradient-to-br from-blue-50 to-blue-300 p-4 shadow-md sm:w-96">
           <h1 className="mb-10 font-sans text-3xl font-medium text-gray-700">
-            Mission
+            Objective
           </h1>
           <div className="z-30">
-            <div className="flex items-center space-x-2">
-              <div className="h-4 w-4 rounded-full border border-dashed border-green-600 "></div>
+            <div className="flex items-center  space-x-4">
+              {/* <div className="h-4 w-28 rounded-full border border-dashed border-green-600 "></div> */}
               <h3 className="text-sm text-gray-800">
                 {' '}
-                About Student Governing Council{' '}
+                &nbsp;&nbsp;&nbsp;The objective of the Institute Academic
+                Affairs Council is to address all the issues related to the
+                academic affairs of students. It is the representation of
+                students in all matters related to the academic programme, the
+                curriculum, the academic office and administration. The council
+                also strives to conduct tech activities, secure internships and
+                promote undergraduate research.
               </h3>
             </div>
           </div>
 
-          <img
+          {/* <img
             src="/images/hero.png"
             alt=""
             className="absolute bottom-0 right-0 z-0  h-52 w-52 object-contain"
-          />
+          /> */}
         </div>
       </div>
 
@@ -129,38 +137,138 @@ function Index() {
       <hr />
       <div className="mx-auto max-w-5xl p-10">
         <h1 className=" mb-10 text-3xl font-semibold text-gray-800">
-          Responsibilities
+          Functions & Roles
         </h1>
         <div className="space-y-2">
-          <div className="flex items-center space-x-2">
-            <div className="h-4 w-4 rounded-full border border-dashed border-green-600 "></div>
+          <h3 className="text-lg font-semibold text-gray-800">
+            {' '}
+            1. Infrastructure & Learning Resources
+          </h3>
+          <div className="ml-10">
             <h3 className="text-sm text-gray-800">
               {' '}
-              About Student Governing Council{' '}
+              <span className="font-semibold text-gray-900"> 1.1</span>{' '}
+              Classroom, Laboratory & Resources Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 1.2</span> Library
+              Committee
             </h3>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="h-4 w-4 rounded-full border border-dashed border-green-600 "></div>
+          <h3 className="text-lg font-semibold text-gray-800">
+            {' '}
+            2. Student Welfare Committees
+          </h3>
+          <div className="ml-10">
             <h3 className="text-sm text-gray-800">
               {' '}
-              About Student Governing Council{' '}
+              <span className="font-semibold text-gray-900"> 2.1</span> Soft
+              Skills Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 2.2</span> Student
+              Career Advancement Committees
+            </h3>
+            <div className="ml-5">
+              <h3 className="text-sm text-gray-800">
+                {' '}
+                <span className="font-semibold text-gray-900"> 2.2.1</span>{' '}
+                Student Orientation Committee
+              </h3>
+              <h3 className="text-sm text-gray-800">
+                {' '}
+                <span className="font-semibold text-gray-900"> 2.2.2</span>{' '}
+                Student Progression committee
+              </h3>
+              <h3 className="text-sm text-gray-800">
+                {' '}
+                <span className="font-semibold text-gray-900"> 2.2.3</span>{' '}
+                Social Responsibility & Institutional Values Committee
+              </h3>
+            </div>
+          </div>
+          <h3 className="text-lg font-semibold text-gray-800">
+            {' '}
+            3. Information & Broadcasting
+          </h3>
+          <div className="ml-10">
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 3.2</span>{' '}
+              Academics Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 3.2</span> Web &
+              Design Committee
             </h3>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="h-4 w-4 rounded-full border border-dashed border-green-600 "></div>
+          <h3 className="text-lg font-semibold text-gray-800">
+            {' '}
+            4. Club Managers & Convenors
+          </h3>
+          <div className="ml-10">
             <h3 className="text-sm text-gray-800">
               {' '}
-              About Student Governing Council{' '}
+              <span className="font-semibold text-gray-900"> 4.1</span>{' '}
+              E-Education Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 4.2</span>{' '}
+              Competetive Examination Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              <span className="font-semibold text-gray-900"> 4.3</span> Boards
+              Of Studies Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 4.4</span> External
+              Affairs Committee
             </h3>
           </div>
-          <div className="flex items-center space-x-2">
-            <div className="h-4 w-4 rounded-full border border-dashed border-green-600 "></div>
+          <h3 className="text-lg font-semibold text-gray-800">
+            {' '}
+            5. Miscellaneous Committees
+          </h3>
+          <div className="ml-10">
             <h3 className="text-sm text-gray-800">
               {' '}
-              About Student Governing Council{' '}
+              <span className="font-semibold text-gray-900"> 5.1</span>{' '}
+              Internships and Industrial Visits Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              {' '}
+              <span className="font-semibold text-gray-900"> 5.2</span> Research
+              & Development Committee
+            </h3>
+            <h3 className="text-sm text-gray-800">
+              <span className="font-semibold text-gray-900"> 5.3</span> Students
+              Grievance Committee( Examination & Scholarship)
             </h3>
           </div>
         </div>
+        <div className="my-5">
+          <a
+            href="https://drive.google.com/file/d/1vsTvHrhpcAqOdkxpZd86EO4EdZQscquQ/view?usp=sharing"
+            target="_blank"
+            className=" border border-green-500 px-5 py-2 text-green-500 hover:bg-green-500 hover:text-white"
+          >
+            View Document
+          </a>
+        </div>
+      </div>
+      <hr />
+      <div className="mx-auto max-w-5xl p-10">
+        <h1 className=" mb-10 text-3xl font-semibold text-gray-800">
+          Members of the council
+        </h1>
+      </div>
+      <div className="relative h-96 w-full sm:h-screen">
+        <Image src={'/panels/academics.jpg'} layout="fill" />
       </div>
       <hr />
       <div className="mx-auto max-w-5xl p-10">
