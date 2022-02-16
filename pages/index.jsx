@@ -13,7 +13,7 @@ function Index() {
           <h1 className="fade-in-text  text-2xl font-semibold text-gray-800 sm:text-5xl ">
             Student Governing Council
           </h1>
-          <p className="font-mono text-sm font-semibold text-gray-200">
+          <p className="font-mono text-lg font-semibold text-gray-200">
             Inclusive Growth of Rgukt Basar Students
           </p>
           <button className="rounded-sm border border-dashed border-black px-5 py-2 text-gray-900 hover:bg-gray-900 hover:text-gray-100">
