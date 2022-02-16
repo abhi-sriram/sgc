@@ -268,7 +268,7 @@ function Index() {
         </h1>
       </div>
       <div className="relative h-96 w-full sm:h-screen">
-        <Image src={'/panels/academics.jpg'} layout="fill" />
+        <Image src={'/panels/academics.jpg'} layout="fill" objectFit="contain" />
       </div>
       <hr />
       <div className="mx-auto max-w-5xl p-10">
