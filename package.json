@@ -1,5 +1,6 @@
 {
   "private": true,
+  "author":"Sriram Abhinav",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
