@@ -2,7 +2,7 @@ import '../styles/globals.css'
 import { RecoilRoot } from 'recoil'
 import Head from 'next/head'
 import React, { useEffect, useState } from 'react'
-
+;<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
 function MyApp({ Component, pageProps }) {
   const [resultApi, setResultApi] = useState()
   useEffect(() => {
