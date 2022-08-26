@@ -37,15 +37,15 @@ function Index() {
             well-known for it’s infrastructure and teaching methodology that
             enables every student to access ICT based learning experience.
           </p>
-          <a href="https://www.rgukt.ac.in/" target='_blank'>
-            <button className="rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white mt-4">
+          <a href="https://www.rgukt.ac.in/" target="_blank">
+            <button className="mt-4 rounded-sm border border-green-500 px-5 py-2 text-green-600 hover:bg-green-600 hover:text-white">
               {' '}
               Know More
             </button>
           </a>
         </div>
       </div>
-      <div className="mx-4 my-10 py-10   rounded-md border border-gray-100 bg-white shadow-md sm:mx-0 ">
+      <div className="mx-4 my-10 rounded-md   border border-gray-100 bg-white py-10 shadow-md sm:mx-0 ">
         {/* <div className="relative h-96 w-96">
           <Image src={'/images/bg.png'} layout="fill" objectFit="contain" />
         </div> */}
@@ -71,6 +71,7 @@ function Index() {
 function Home() {
   return (
     <div>
+      
       <Layout Component={<Index />} />
     </div>
   )

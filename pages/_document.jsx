@@ -1,5 +1,4 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-
 class MyDocument extends Document {
   render() {
     return (
@@ -8,7 +7,7 @@ class MyDocument extends Document {
           <link rel="manifest" href="/manifest.json" />
           <link rel="apple-touch-icon" href="/icon.png" />
           <meta name="theme-color" content="#fffs" />
-          <script
+          {/* <script
             src="https://cdn.onesignal.com/sdks/OneSignalSDK.js"
             async=""
           ></script>
@@ -23,7 +22,7 @@ class MyDocument extends Document {
               },
             })}
             );
-          </script>
+          </script> */}
         </Head>
         <body>
           <Main />
