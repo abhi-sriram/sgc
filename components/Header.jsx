@@ -9,7 +9,7 @@ function Header() {
     <div className="sticky top-0 z-50     bg-gray-100 p-5 shadow-md ">
       <div className="mx-auto flex max-w-6xl items-center justify-between">
         <div>
-          <h1 className="cursor-pointer text-gray-900">Logo</h1>
+          <h1 className="cursor-pointer text-gray-900 font-bold text-xl">SGC</h1>
         </div>
         <div className="flex space-x-5 ">
           <Link href={'/'}>

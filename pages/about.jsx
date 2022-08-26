@@ -101,7 +101,7 @@ function Index() {
       {/* Banner */}
       <div
         ref={scrollDivFooter}
-        className=" flex  h-screen flex-col-reverse items-center justify-center rounded-md bg-gradient-to-br from-blue-400 to-purple-500 py-10 px-5 sm:h-full sm:flex-row sm:justify-between"
+        className=" flex  h-screen flex-col-reverse items-center justify-center rounded-md bg-gradient-to-br from-blue-400 to-purple-500 py-10 px-5 sm:h-96 sm:flex-row sm:justify-between"
       >
         <div className="flex flex-col items-center space-y-2">
           <h1 className="text-center text-2xl font-semibold text-gray-800 sm:text-4xl ">
@@ -111,13 +111,13 @@ function Index() {
             Inclusive Growth of Rgukt Basar Students
           </p>
         </div>
-        <div className="relative h-96 w-96">
+        {/* <div className="relative h-96 w-96">
           <Image src={'/images/hero.png'} layout="fill" objectFit="contain" />
-        </div>
+        </div> */}
       </div>
       <div className="mx-4 my-10 flex flex-col items-center justify-between  rounded-md border border-gray-100 bg-white shadow-md sm:mx-0 sm:flex-row">
         <div className="relative h-96 w-96">
-          <Image src={'/images/bg.png'} layout="fill" objectFit="contain" />
+          <Image src={'/images/vision.png'} layout="fill" objectFit="contain" />
         </div>
         <div className="space-y-4 p-4 sm:w-1/2">
           <h1 className="text-3xl  text-gray-800 sm:text-4xl">Vision</h1>
@@ -133,7 +133,7 @@ function Index() {
       </div>
       <div className="mx-4 my-10 flex flex-col items-center justify-between  rounded-md border border-gray-100 bg-white shadow-md sm:mx-0 sm:flex-row-reverse">
         <div className="relative h-96 w-96">
-          <Image src={'/images/bg.png'} layout="fill" objectFit="contain" />
+          <Image src={'/images/mission.png'} layout="fill" objectFit="contain" />
         </div>
         <div className="space-y-4 p-4 sm:w-1/2">
           <h1 className="text-3xl  text-gray-800 sm:text-4xl">Mission</h1>
